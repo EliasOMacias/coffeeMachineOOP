@@ -9,7 +9,7 @@ from money_machine import MoneyMachine
 
 #todo 2: turn off the coffee machine
 
-#todo 3: print report which shows current resources
+
 
 #todo 4: check resources sufficient
     #todo 4a: when the user chooses a drink the program should chick if there are enough resources
@@ -23,4 +23,12 @@ from money_machine import MoneyMachine
     #todo 6a: check if funds are sufficient after coin counting operation
     #todo 6b: if successful add money to profit to be reflected in report
     #todo 6c: offer change
-def CoffeeMachine()
+def CoffeeMachine():
+
+    prompt = input('what would you like?')
+
+    if prompt.lower() == 'report':
+        CoffeeMaker().report()
+
+
+CoffeeMachine()
