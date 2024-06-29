@@ -2,6 +2,9 @@ from menu import Menu, MenuItem
 from coffe_maker import CoffeeMaker
 from money_machine import MoneyMachine
 
+money_machine = MoneyMachine()
+coffee_maker = CoffeeMaker()
+menu = Menu()
 
 #todo 1: Prompt user by asking what would you like?
     #todo 1a: check users input
@@ -23,14 +26,17 @@ from money_machine import MoneyMachine
     #todo 6a: check if funds are sufficient after coin counting operation
     #todo 6b: if successful add money to profit to be reflected in report
     #todo 6c: offer change
-def CoffeeMachine():
-
-    prompt = input('what would you like?')
-
-    if prompt.lower() == 'report':
-        CoffeeMaker().report()
-    elif prompt.lower() == 'off':
-        exit()
 
 
-CoffeeMachine()
+prompt = input('what would you like?\n')
+
+if prompt.lower() == 'report':
+    coffee_maker.report()
+    money_machine.report(r)
+elif prompt.lower() == 'off':
+    exit()
+elif prompt.lower() == 'latte':
+    CoffeeMaker().is_resource_sufficient('latte')
+
+
+
