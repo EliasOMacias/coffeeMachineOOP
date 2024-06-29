@@ -7,7 +7,7 @@ from money_machine import MoneyMachine
     #todo 1a: check users input
     #todo 2a: prompt should show after each completed action
 
-#todo 2: turn off the coffee machine
+
 
 
 
@@ -29,6 +29,8 @@ def CoffeeMachine():
 
     if prompt.lower() == 'report':
         CoffeeMaker().report()
+    elif prompt.lower() == 'off':
+        exit()
 
 
 CoffeeMachine()
