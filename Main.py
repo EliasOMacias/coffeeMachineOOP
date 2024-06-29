@@ -15,7 +15,6 @@ menu = Menu()
 
 
 #todo 4: check resources sufficient
-    #todo 4a: when the user chooses a drink the program should chick if there are enough resources
     #todo 4b: if not report what is insufficient
 
 #todo 5: process coins
@@ -28,15 +27,20 @@ menu = Menu()
     #todo 6c: offer change
 
 
-prompt = input('what would you like?\n')
 
-if prompt.lower() == 'report':
-    coffee_maker.report()
-    money_machine.report(r)
-elif prompt.lower() == 'off':
-    exit()
-elif prompt.lower() == 'latte':
-    CoffeeMaker().is_resource_sufficient('latte')
 
+is_on = True
+while is_on:
+    options = menu.get_items()
+    choice = input(f'What would you like ({options})\n')
+    if choice.lower() == 'report':
+        coffee_maker.report()
+        money_machine.report()
+    elif choice.lower() == 'off':
+        is_on = False
+    else:
+        drink = menu.find_drink(choice)
+        coffee_maker.is_resource_sufficient(drink):
+        if
 
 
