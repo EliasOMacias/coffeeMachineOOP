@@ -1,30 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c8ee005-4d61-4bb9-ba78-0bae574d7a51" name="Changes" comment="" />
+    <list default="true" id="1c8ee005-4d61-4bb9-ba78-0bae574d7a51" name="Changes" comment="All to do's completed let's rock">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EliasOMacias&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EliasOMacias/coffeeMachineOOP.git&quot;,
+    &quot;accountId&quot;: &quot;daff5951-bb74-479f-a5b0-772cf2443d3b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2iZ42HA1kkhvpzOgjKOmLbp5av5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -41,6 +73,91 @@
       <option name="presentableId" value="Default" />
       <updated>1719684556752</updated>
     </task>
+    <task id="LOCAL-00001" summary="- created empty main file&#10;- created coffe_make, menu, and money_machine files for creating classes">
+      <option name="closed" value="true" />
+      <created>1719684968522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719684968522</updated>
+    </task>
+    <task id="LOCAL-00002" summary="moved files into main directory">
+      <option name="closed" value="true" />
+      <created>1719685080773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719685080773</updated>
+    </task>
+    <task id="LOCAL-00003" summary="imported all necessary classes">
+      <option name="closed" value="true" />
+      <created>1719685385817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719685385817</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Wrote to do list in Main">
+      <option name="closed" value="true" />
+      <created>1719686115850</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719686115850</updated>
+    </task>
+    <task id="LOCAL-00005" summary="-todo 3 done: added code for checking report.">
+      <option name="closed" value="true" />
+      <created>1719687141510</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719687141510</updated>
+    </task>
+    <task id="LOCAL-00006" summary="- completed todo 2: added off function">
+      <option name="closed" value="true" />
+      <created>1719687215330</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719687215330</updated>
+    </task>
+    <task id="LOCAL-00007" summary="created money_machine, coffee_maker, and menu objects">
+      <option name="closed" value="true" />
+      <created>1719688163405</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719688163405</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added code to check resources">
+      <option name="closed" value="true" />
+      <created>1719689217084</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719689217084</updated>
+    </task>
+    <task id="LOCAL-00009" summary="All to do's completed let's rock">
+      <option name="closed" value="true" />
+      <created>1719690301339</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719690301339</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="- created empty main file&#10;- created coffe_make, menu, and money_machine files for creating classes" />
+    <MESSAGE value="moved files into main directory" />
+    <MESSAGE value="imported all necessary classes" />
+    <MESSAGE value="Wrote to do list in Main" />
+    <MESSAGE value="-todo 3 done: added code for checking report." />
+    <MESSAGE value="- completed todo 2: added off function" />
+    <MESSAGE value="created money_machine, coffee_maker, and menu objects" />
+    <MESSAGE value="added code to check resources" />
+    <MESSAGE value="All to do's completed let's rock" />
+    <option name="LAST_COMMIT_MESSAGE" value="All to do's completed let's rock" />
   </component>
 </project>
